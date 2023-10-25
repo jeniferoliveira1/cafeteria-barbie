@@ -6,22 +6,23 @@ header{
 
 .logo-site{
     float:left;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 90px;
 }
 
 .logo-site img{
     float:left;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .logo-site h1{
     display: inline-block;
     margin: 50px 0 0 20px;
+    font-family:inherit;
 }
 
 .logo-site h1 a{
     text-decoration: none;
-    color: #000000;
+    color: #dba0d1;
     font-weight: bold;
 	font-size: 40px;
 }
@@ -39,11 +40,33 @@ nav li{
 nav a {
 	text-transform: uppercase;
     font-family: Helvetica;
-	color: #f00064;
+	color: #eea2c2;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #8400ff;
+	color: #f3e9f1;
 }
+
+
+
+
+
+
+
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
